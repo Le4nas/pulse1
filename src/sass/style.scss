@@ -1,0 +1,22 @@
+@import 'base/variables';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+a{
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/header';
