@@ -1,0 +1,43 @@
+@import '../base/variables';
+.advantages{
+    margin: 65px 0;
+    &__head{
+        margin-bottom: 65px;
+    }
+    &__item{
+        flex: 0 1 260px;
+    }
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 15px;
+ 
+    }
+    &__icon{
+        margin-bottom: 30px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    &__text{
+        font-size: 14px;
+        line-height: 18px;
+        a {
+            color: $main-color;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.headmain{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+

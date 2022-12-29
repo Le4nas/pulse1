@@ -2,7 +2,9 @@
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
-
+body{
+    color: #0D0D0D;
+}
 a{
     color: inherit;
 }
@@ -20,4 +22,6 @@ a:hover{
 @import 'blocks/buttons';
 @import 'blocks/promo';
 @import 'blocks/header';
-@import 'blocks/media';
+@import 'blocks/advantages.scss';
+@import 'blocks/media-promo';
+@import 'blocks/media-advantage';
