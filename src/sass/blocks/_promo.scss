@@ -26,9 +26,11 @@
     }
     &__icons{
         display: flex;
-        width: 425px;
+        width: 100%;
+        max-width: 425px;
         margin-top: 60px;
         justify-content: space-between;
+    
     }
     &__icon{
         font-weight: 500;

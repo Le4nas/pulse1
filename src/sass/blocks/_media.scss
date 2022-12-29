@@ -1,0 +1,94 @@
+@media  (max-width: 768px){
+ // HEADER=======================================================================================================================
+    .header{
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        &__phone{
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+// PROMO =========================================================================================================================
+    .promo{
+        height: 100vh;
+        padding: 21px 0 33px;
+        &__wrapper{
+            margin-top: 61px;
+        }
+        &__header{
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 17px;
+        }
+        &__subheader{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &__icons{
+            margin-top: 40px;          
+        }
+        &__icon{
+            font-size: 12px;               
+            img{
+            }
+        }      
+    }
+}
+@media (max-width: 580px){
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+    }
+
+    .header{
+        &__official {
+            display: none;
+        }  
+    }
+    
+}
+
+@media (max-width:480px) {
+    .header{
+        &__phone{
+                font-size: 12px;
+                line-height: 18px;
+        }
+        &__logo {
+            width: 140px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        &__icon{
+            font-size: 12px;
+        }
+    }  
+    .button{
+        font-size: 10px;
+        width: 130px;
+        &_main{
+            width: 300px;
+            font-size: 16px;
+        }
+    }  
+}
