@@ -22,5 +22,36 @@
         font-size: 24px;
         line-height: 24px;
     }
-    
+    .consulation{
+        height: 100vh;
+        padding: 50px 0 40px;
+        &__head{
+            font-size: 24px;
+            color: #FFFFFF;
+            text-align: left;
+            line-height: 34px;
+            margin-bottom: 10px;
+        }
+        &__desckr{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            color: #FFFFFF;
+                }
+    }  
+}
+
+@media (max-width:480px) {
+    .consulation{
+        &__head{
+            text-align: center;
+        }
+        &__desckr{
+            text-align: center;
+                }
+    }  
+    .feed-form{
+        margin: 36px auto 0;
+    }
 }

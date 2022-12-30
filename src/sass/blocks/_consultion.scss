@@ -1,0 +1,19 @@
+.consulation{
+    min-height: 680px;
+    padding: 100px 0 93px;
+    background: url('../../img/consultation.jpg') center (center/cover) no-repeat;
+    &__head{
+        font-size: 36px;
+        color: #FFFFFF;
+        text-align: left;
+        line-height: 54px;
+        margin-bottom: 10px;
+    }
+    &__desckr{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        color: #FFFFFF;
+            }
+}
